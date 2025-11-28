@@ -212,7 +212,7 @@ question_bank = [
 ]
 
 # --- 2. 应用逻辑 ---
-st.title("随机抽题小程序")
+st.title("结构化面试模拟抽题")
 st.write("点击下方按钮开始抽题！")
 
 # 初始化会话状态，用于存储当前抽中的题目
@@ -245,3 +245,4 @@ if st.session_state.current_question:
         st.subheader("参考答案：")
 
         st.write(st.session_state.current_question["answer"])
+
